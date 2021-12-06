@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"
+    tools:context = ".MainActivity">
+
+    <EditText
+        android:id = "@+id/editText"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content" />
+    <Button
+        android:layout_gravity = "center"
+        android:id = "@+id/bn"
+        android:layout_width = "100dp"
+        android:layout_height = "50dp"
+        android:text = "打开链接"/>
+    <Button
+        android:layout_gravity = "center"
+        android:id = "@+id/bn_baidu"
+        android:layout_width = "100dp"
+        android:layout_height = "50dp"
+        android:text = "打开百度" />
+    <Button
+        android:layout_gravity = "center"
+        android:id = "@+id/bn_taobao"
+        android:layout_width = "100dp"
+        android:layout_height = "50dp"
+        android:text = "打开百度" />
+
+</LinearLayout>
